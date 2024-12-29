@@ -1,0 +1,39 @@
+.logo-text {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; /* Increased spacing between MAXX and MAI */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo-maxx {
+  color: #FFFFFF;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.logo-mai {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+}
+
+.logo-m {
+  color: #FFD700;
+  font-weight: 400;
+}
+
+.logo-ai {
+  color: #FFD700;
+  font-weight: 700;
+  position: relative;
+  filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.3));
+}
+
+.logo-ai::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border: 1px solid rgba(255, 215, 0, 0.4);
+  border-radius: 2px;
+  filter: blur(2px);
+}

@@ -1,0 +1,33 @@
+/* Custom styles for the range slider handle */
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 40px; /* Match icon container size */
+  height: 40px;
+  border-radius: 0.5rem;
+  background: #D4B788;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.range-slider::-moz-range-thumb {
+  width: 40px;
+  height: 40px;
+  border-radius: 0.5rem;
+  background: #D4B788;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.range-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.range-slider::-moz-range-thumb:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

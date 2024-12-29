@@ -1,0 +1,30 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Timeline path -->
+  <path d="M50 150 C 100 150, 150 100, 200 100 S 300 150, 350 150" stroke="#00FF94" stroke-width="2" fill="none"/>
+  
+  <!-- Timeline points -->
+  <g>
+    <!-- Bahamas point -->
+    <circle cx="100" cy="150" r="8" fill="#111"/>
+    <circle cx="100" cy="150" r="4" fill="#00FF94"/>
+    <text x="70" y="180" fill="#666" font-size="12">Bahamas</text>
+    <text x="70" y="195" fill="#666" font-size="10">Birthday Trip</text>
+    
+    <!-- Italy point -->
+    <circle cx="200" cy="100" r="8" fill="#111"/>
+    <circle cx="200" cy="100" r="4" fill="#00FF94"/>
+    <text x="180" y="80" fill="#666" font-size="12">Honeymoon</text>
+    <text x="180" y="95" fill="#666" font-size="10">in Italy</text>
+    
+    <!-- Miami point -->
+    <circle cx="300" cy="150" r="8" fill="#111"/>
+    <circle cx="300" cy="150" r="4" fill="#00FF94"/>
+    <text x="280" y="180" fill="#666" font-size="12">Weekend</text>
+    <text x="280" y="195" fill="#666" font-size="10">in Miami</text>
+  </g>
+  
+  <!-- Timeline dates -->
+  <text x="90" y="220" fill="#666" font-size="12">21</text>
+  <text x="190" y="220" fill="#666" font-size="12">25</text>
+  <text x="290" y="220" fill="#666" font-size="12">27</text>
+</svg>
